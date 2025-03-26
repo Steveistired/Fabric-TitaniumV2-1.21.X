@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.stevele.titaniumv2.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

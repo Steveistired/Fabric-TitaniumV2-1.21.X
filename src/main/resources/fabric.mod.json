@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "titanium-v2",
+	"version": "${version}",
+	"name": "Titanium V2",
+	"description": "New and improve titanium mod from last year.",
+	"authors": [
+		"Steve!"
+	],
+	"contact": {
+		"homepage": "https://stevele.net/",
+		"sources": "https://github.com/Titanium-V2-Steve/Fabric-TitaniumV2-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/titanium-v2/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.stevele.titaniumv2.TitaniumV2"
+		],
+		"fabric-datagen": [
+			"net.stevele.titaniumv2.TitaniumV2DataGenerator"
+		],
+		"client": [
+			"net.stevele.titaniumv2.TitaniumV2Client"
+		]
+	},
+	"mixins": [
+		"titanium-v2.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
