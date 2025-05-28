@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "titanium-v2:raw_titanium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "titanium-v2:raw_titanium"
+  }
+}
