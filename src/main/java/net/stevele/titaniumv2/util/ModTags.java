@@ -9,6 +9,8 @@ import net.stevele.titaniumv2.TitaniumV2;
 
 public class ModTags {
         public static class Blocks {
+            public static final TagKey<Block> NEEDS_TITANIUM_TOOL = createTag("needs_titanium_tool");
+            public static final TagKey<Block> INCORRECT_FOR_TITANIUM_TOOL = createTag("incorrect_for_titanium_tool");
 
             private static TagKey<Block> createTag(String name) {
                 return TagKey.of(RegistryKeys.BLOCK, Identifier.of(TitaniumV2.MOD_ID, name));
