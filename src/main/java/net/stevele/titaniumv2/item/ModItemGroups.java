@@ -10,6 +10,8 @@ import net.minecraft.util.Identifier;
 import net.stevele.titaniumv2.TitaniumV2;
 import net.stevele.titaniumv2.block.ModBlocks;
 
+//Group items together in a custom Creative mode tab
+
 public class ModItemGroups {
     public static final ItemGroup TITANIUM_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TitaniumV2.MOD_ID, "titanium_items"),
