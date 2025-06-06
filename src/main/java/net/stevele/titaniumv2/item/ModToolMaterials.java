@@ -14,6 +14,8 @@ import net.stevele.titaniumv2.util.ModTags;
 import java.util.Objects;
 import java.util.function.Supplier;
 
+//Make the custom tools have the same property as vanilla Minecraft tools
+
 public enum ModToolMaterials implements ToolMaterial {
     TITANIUM(ModTags.Blocks.INCORRECT_FOR_TITANIUM_TOOL,
             4500, 12.0F, 7.0F, 30, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.TITANIUM_INGOT}));
