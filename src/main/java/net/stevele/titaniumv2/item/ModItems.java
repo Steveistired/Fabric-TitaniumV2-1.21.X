@@ -7,6 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+//Create stats for items
 
 public class ModItems {
     public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new Item.Settings()));
