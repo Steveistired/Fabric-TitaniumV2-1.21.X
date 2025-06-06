@@ -8,6 +8,8 @@ import net.stevele.titaniumv2.datagen.*;
 //import net.stevele.titaniumv2.world.ModConfiguredFeatures;
 //import net.stevele.titaniumv2.world.ModPlacedFeatures;
 
+//Generate files in the generated folder (commented codes are world generation related codes that are disabled)
+
 public class TitaniumV2DataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
