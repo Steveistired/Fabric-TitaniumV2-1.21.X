@@ -38,6 +38,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.RAW_TITANIUM_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_TITANIUM_BLOCK), conditionsFromItem(ModBlocks.RAW_TITANIUM_BLOCK))
                 .offerTo(recipeExporter);
+
+        //Crafting recipe for tools didn't worked and I can't find the solution despite looking everywhere
+        
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TITANIUM_SWORD)
                 .pattern(" T ")
                 .pattern(" T ")
