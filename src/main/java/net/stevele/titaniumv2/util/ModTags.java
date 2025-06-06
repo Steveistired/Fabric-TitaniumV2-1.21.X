@@ -7,6 +7,8 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.stevele.titaniumv2.TitaniumV2;
 
+//Generate tags for modded items
+
 public class ModTags {
         public static class Blocks {
             public static final TagKey<Block> NEEDS_TITANIUM_TOOL = createTag("needs_titanium_tool");
