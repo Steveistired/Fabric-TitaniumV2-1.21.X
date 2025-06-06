@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.stevele.titaniumv2.TitaniumV2;
 
+//Register properties for modded blocks
+
 public class ModBlocks {
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
             new Block(AbstractBlock.Settings.create().strength(7f)
