@@ -11,6 +11,7 @@ import net.minecraft.village.VillagerProfession;
 import net.stevele.titaniumv2.block.ModBlocks;
 import net.stevele.titaniumv2.item.ModItemGroups;
 import net.stevele.titaniumv2.item.ModItems;
+//import net.stevele.titaniumv2.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +25,8 @@ public class TitaniumV2 implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		//ModWorldGeneration.generateModWorldGen();
 
 		TradeOfferHelper.registerVillagerOffers(VillagerProfession.WEAPONSMITH,5, factories -> {
 			factories.add((entity, random) -> new TradeOffer(

@@ -18,6 +18,12 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.TITANIUM_INGOT);
                         entries.add(ModItems.RAW_TITANIUM);
+
+                        entries.add(ModItems.TITANIUM_SWORD);
+                        entries.add(ModItems.TITANIUM_PICKAXE);
+                        entries.add(ModItems.TITANIUM_SHOVEL);
+                        entries.add(ModItems.TITANIUM_AXE);
+                        entries.add(ModItems.TITANIUM_HOE);
                     }).build());
 
     public static final ItemGroup TITANIUM_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

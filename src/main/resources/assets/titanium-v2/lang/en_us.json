@@ -2,6 +2,12 @@
   "item.titanium-v2.titanium_ingot": "Titanium Ingot",
   "item.titanium-v2.raw_titanium": "Raw Titanium",
 
+  "item.titanium-v2.titanium_sword": "Titanium Sword",
+  "item.titanium-v2.titanium_pickaxe": "Titanium Pickaxe",
+  "item.titanium-v2.titanium_shovel": "Titanium Shovel",
+  "item.titanium-v2.titanium_axe": "Titanium Axe",
+  "item.titanium-v2.titanium_hoe": "Titanium Hoe",
+
   "block.titanium-v2.titanium_block": "Block of Titanium",
   "block.titanium-v2.raw_titanium_block": "Raw Titanium Block",
   "block.titanium-v2.deepslate_titanium_ore": "Deepslate Titanium Ore",

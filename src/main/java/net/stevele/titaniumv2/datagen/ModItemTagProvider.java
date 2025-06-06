@@ -3,6 +3,7 @@ package net.stevele.titaniumv2.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 import net.stevele.titaniumv2.item.ModItems;
 import net.stevele.titaniumv2.util.ModTags;
 
@@ -18,6 +19,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.TITANIUM_ITEMS)
                 .add(ModItems.TITANIUM_INGOT)
                 .add(ModItems.RAW_TITANIUM);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.TITANIUM_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.TITANIUM_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.TITANIUM_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.TITANIUM_AXE);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.TITANIUM_HOE);
+
+
 
     }
 }
